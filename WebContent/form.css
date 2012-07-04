@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+
+body{
+	font-family: consolas;
+	background-image: url("https://encrypted-tbn2.google.com/images?q=tbn:ANd9GcSAWzlBzR3wztsuEue2UVFD9hLgYjNk5mpn36qS9oIREjnofbIm");	
+	background-repeat: repeat;
+	background-position: center;
+}	
+
+h1{	
+	color: gray;
+	border-bottom: 1px solid black;	
+}
+
+p{
+	color: maroon;	
+}
+
+input{
+	color: #781351;
+	background: #fee3ad;
+	border: 1px solid #781351;
+	
+}
+
+.submit input {
+	color: #000;
+	background: #ffa20f;
+	border: 2px outset #d7b9c9
+}
+
+textarea{
+	font-family: cosolas;
+}
+
+fieldset {
+	border: 1px solid 781351;
+	width: 30em
+}
+legend {
+	color: #fff;
+	
+}

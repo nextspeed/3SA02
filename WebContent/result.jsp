@@ -3,15 +3,14 @@
     
 <html>
 	<body>
-		<h1 align="center">Beer Recommentdations JSP</h1>
+		<h1 align="center">Result of Process</h1>
 		<p>
 		
 		<%
-			List styles = (List)request.getAttribute("styles");
-			Iterator it = styles.iterator();
-			while(it.hasNext()){
-				out.print("<br>Try : " + it.next());
-			}
+			String result = (String)request.getAttribute("result");
+			
+				out.print("<br>Try : " + result);
+			
 		%>
 	</body>
 </html>
